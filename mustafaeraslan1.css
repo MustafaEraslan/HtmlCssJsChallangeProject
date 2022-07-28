@@ -1,0 +1,65 @@
+@media(min-width:200px){
+	#resetdugme{
+	flex-wrap:nowrap;	
+	flex-basis:auto;
+	
+    }
+	#main-body{
+	background-color:darkgreen;
+ 
+}
+
+	#kabuk{  
+    display:flex;	
+	border:3px #ccc solid;
+    padding:10px;
+	flex-wrap:wrap;
+	background-color:Forestgreen;
+    flex-basis:auto;
+    justify-content:flex-start;
+	}
+    
+  }
+  #kabuk div{
+	display:flex;
+	flex-wrap:wrap;
+	flex-basis:auto;
+    justify-content:flex-start;
+	background-color: gray;
+    border:2px #ccc solid;
+    padding:20px;
+	margin-top:10px;
+	width:30%;
+  }
+  #kabuk div:hover{ background-color: #b4ecb4;
+  cursor:pointer;
+  }
+  
+  input[type="submit"] {
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  padding: .5em .5em;
+  width: 70%;
+  border:1px #ccc solid;
+  border-radius: 0.3em;
+  background-color: green;
+  color: white;
+  font-size: 1em;
+ 
+ 
+}
+input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
+	margin-left:auto;
+   margin-right:auto;
+  background-color: gray;
+  color: white;
+  cursor:pointer;
+  
+}
+
+ 
